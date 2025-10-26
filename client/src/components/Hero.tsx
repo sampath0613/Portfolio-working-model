@@ -25,7 +25,7 @@ export default function Hero() {
         </h1>
         
         <p className="text-lg md:text-xl text-white/80 max-w-3xl mx-auto mb-12 leading-relaxed font-body" data-testid="text-hero-value-prop">
-          Exploring transformer architectures and quantum machine learning to make AI more reliable and impactful
+          Exploring and Learning the science of Data and Networks
         </p>
         
         <div className="flex flex-wrap items-center justify-center gap-4">
