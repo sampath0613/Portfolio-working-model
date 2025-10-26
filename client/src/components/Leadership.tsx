@@ -41,9 +41,10 @@ export default function Leadership() {
           </p>
         </div>
 
-        <Collapsible>
+        <Collapsible className="relative group">
+          <div className="absolute inset-0 bg-primary/5 rounded-3xl -m-6 transition-all duration-300 opacity-0 group-data-[state=open]:opacity-100"></div>
           <CollapsibleTrigger asChild>
-            <Card className="mb-8 border-primary/20 cursor-pointer hover:border-primary/40 transition-all" data-testid="card-space-club">
+            <Card className="mb-8 border-primary/20 cursor-pointer hover:border-primary/40 transition-all relative" data-testid="card-space-club">
               <CardHeader>
                 <div className="flex flex-wrap items-start justify-between gap-4">
                   <div className="flex items-start gap-3">
@@ -61,7 +62,9 @@ export default function Leadership() {
                       <Badge variant="secondary" data-testid="badge-co-founder">Co-founder</Badge>
                       <Badge variant="outline" data-testid="badge-timeline">April 2025 - Present</Badge>
                     </div>
-                    <ChevronDown className="h-4 w-4 text-muted-foreground transition-transform duration-200 collapsible-open:rotate-180" />
+                    <div className="rounded-full p-1.5 bg-primary/5 transition-colors group-hover:bg-primary/10">
+                      <ChevronDown className="h-4 w-4 text-primary transition-transform duration-300 ease-out group-data-[state=open]:rotate-180" />
+                    </div>
                   </div>
                 </div>
               </CardHeader>
@@ -73,8 +76,8 @@ export default function Leadership() {
             </Card>
           </CollapsibleTrigger>
 
-          <CollapsibleContent className="space-y-6 mt-2">
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <CollapsibleContent className="space-y-6 mt-2 relative">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 transition-all duration-300 transform origin-top">
               {achievements.map((achievement, index) => (
                 <Card key={index} className="hover-elevate" data-testid={`card-achievement-${index}`}>
                   <CardHeader>
