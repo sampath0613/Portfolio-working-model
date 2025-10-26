@@ -24,10 +24,6 @@ export default function Hero() {
           Your Name Here
         </h1>
         
-        <p className="text-xl md:text-2xl text-white/90 mb-4 font-light" data-testid="text-hero-tagline">
-          3rd Year CS Engineering Student | AI/ML Researcher | Space Club President
-        </p>
-        
         <p className="text-lg md:text-xl text-white/80 max-w-3xl mx-auto mb-12 leading-relaxed font-body" data-testid="text-hero-value-prop">
           Exploring transformer architectures and quantum machine learning to make AI more reliable and impactful
         </p>
