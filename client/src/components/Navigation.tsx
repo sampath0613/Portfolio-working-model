@@ -5,13 +5,20 @@ import { Menu, X } from "lucide-react";
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isInHero, setIsInHero] = useState(true);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
+      const scrollY = window.scrollY;
+      setIsScrolled(scrollY > 50);
+      
+      // Check if we're in the hero section (approximately viewport height)
+      const heroHeight = window.innerHeight - 100; // Subtract some pixels to trigger change earlier
+      setIsInHero(scrollY < heroHeight);
     };
 
+    handleScroll(); // Call once on mount
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -44,10 +51,12 @@ export default function Navigation() {
         <div className="flex items-center justify-between">
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            className="text-lg font-bold text-foreground"
+            className={`text-lg font-bold transition-colors duration-300 ${
+              isScrolled || !isInHero ? "text-foreground" : "text-white"
+            }`}
             data-testid="button-nav-logo"
           >
-            Sampath's Portfolio
+            Sampath Dev
           </button>
 
           <div className="hidden md:flex items-center gap-1">
@@ -56,6 +65,9 @@ export default function Navigation() {
                 key={link.id}
                 variant="ghost"
                 onClick={() => scrollToSection(link.id)}
+                className={`transition-colors duration-300 ${
+                  isScrolled || !isInHero ? "" : "text-white hover:text-white/90 hover:bg-white/10"
+                }`}
                 data-testid={`button-nav-${link.id}`}
               >
                 {link.label}
@@ -70,6 +82,9 @@ export default function Navigation() {
               variant="ghost"
               size="icon"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className={`transition-colors duration-300 ${
+                isScrolled || !isInHero ? "" : "text-white hover:text-white/90 hover:bg-white/10"
+              }`}
               data-testid="button-mobile-menu"
             >
               {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -84,7 +99,9 @@ export default function Navigation() {
                 key={link.id}
                 variant="ghost"
                 onClick={() => scrollToSection(link.id)}
-                className="w-full justify-start"
+                className={`w-full justify-start transition-colors duration-300 ${
+                  isScrolled || !isInHero ? "" : "text-white hover:text-white/90 hover:bg-white/10"
+                }`}
                 data-testid={`button-mobile-nav-${link.id}`}
               >
                 {link.label}
