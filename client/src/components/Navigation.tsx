@@ -56,7 +56,7 @@ export default function Navigation() {
             }`}
             data-testid="button-nav-logo"
           >
-            A Sampath Dev
+            Sampath's Portfolio
           </button>
 
           <div className="hidden md:flex items-center gap-1">
