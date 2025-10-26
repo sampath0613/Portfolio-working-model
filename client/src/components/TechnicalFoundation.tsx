@@ -5,18 +5,15 @@ import { BookOpen, Code, Cpu, Star } from "lucide-react";
 export default function TechnicalFoundation() {
   const coursework = [
     "Data Structures",
-    "Algorithms",
-    "Computer Architecture",
+    "Design & Analysis of Algorithms",
     "Database Management Systems",
-    "Computer Networks",
     "Operating Systems",
     "Machine Learning",
     "Theory of Computation",
-    "AI Agents",
-    "Web Technology"
+    "Introduction to AI"
   ];
 
-  const favoriteSubjects = ["Theory of Computation", "Operating Systems"];
+  const favoriteSubjects = ["Theory of Computation", "Introduction to AI"];
 
   const programmingLanguages = [
     { name: "Python", level: "primary" },
@@ -87,26 +84,29 @@ export default function TechnicalFoundation() {
 
           <Card data-testid="card-programming">
             <CardHeader>
-              <div className="flex items-center gap-3 mb-2">
+              <div className="flex items-center gap-3">
                 <div className="p-2 bg-primary/10 rounded-md">
                   <Code className="w-5 h-5 text-primary" />
                 </div>
-                <CardTitle>Programming Languages</CardTitle>
+                <CardTitle>Languages & Tools</CardTitle>
               </div>
             </CardHeader>
-            <CardContent>
-              <div className="space-y-3">
-                {programmingLanguages.map((lang, index) => (
-                  <div key={index} className="flex items-center justify-between" data-testid={`row-language-${index}`}>
-                    <span className="text-foreground font-medium">{lang.name}</span>
-                    <Badge variant={lang.level === "primary" ? "default" : "secondary"}>
-                      {lang.level === "primary" ? "Primary" : "Proficient"}
-                    </Badge>
-                  </div>
-                ))}
+            <CardContent className="space-y-6">
+              <div>
+                <h3 className="text-sm font-semibold text-foreground mb-3">Programming Languages</h3>
+                <div className="space-y-3">
+                  {programmingLanguages.map((lang, index) => (
+                    <div key={index} className="flex items-center justify-between" data-testid={`row-language-${index}`}>
+                      <span className="text-foreground font-medium">{lang.name}</span>
+                      <Badge variant={lang.level === "primary" ? "default" : "secondary"}>
+                        {lang.level === "primary" ? "Primary" : "Proficient"}
+                      </Badge>
+                    </div>
+                  ))}
+                </div>
               </div>
               <div className="mt-6">
-                <h4 className="text-sm font-semibold text-foreground mb-3">Tools & Platforms</h4>
+                <h3 className="text-sm font-semibold text-foreground mb-3">Tools & Platforms</h3>
                 <div className="flex flex-wrap gap-2">
                   {toolsPlatforms.map((tool, index) => (
                     <Badge key={index} variant="outline" className="text-sm" data-testid={`badge-tool-${index}`}>

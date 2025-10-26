@@ -7,22 +7,22 @@ export default function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "your.email@example.com",
-      href: "mailto:your.email@example.com",
+      value: "sampathdevamgoth9999@gmail.com",
+      href: "sampathdevamgoth9999@gmail.com",
       testId: "link-email"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/yourprofile",
-      href: "https://linkedin.com/in/yourprofile",
+      value: "linkedin.com/in/sampath0613",
+      href: "https://www.linkedin.com/in/sampath0613/",
       testId: "link-linkedin"
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/yourusername",
-      href: "https://github.com/yourusername",
+      value: "github.com/sampath0613",
+      href: "https://github.com/sampath0613",
       testId: "link-github"
     },
     {
@@ -42,7 +42,7 @@ export default function Contact() {
             Get In Touch
           </h2>
           <p className="text-lg text-muted-foreground font-body max-w-2xl mx-auto" data-testid="text-contact-subtitle">
-            Interested in collaboration, research opportunities, or just want to connect? Feel free to reach out!
+            Interested in my technical and research work, or just want to connect? Feel free to reach out!
           </p>
         </div>
 

@@ -22,7 +22,7 @@ export default function Vision() {
               </div>
               <h3 className="text-lg font-semibold text-foreground mb-2">Deep Curiosity</h3>
               <p className="text-sm text-foreground/80 font-body">
-                Exploring transformer architectures, LLM reliability, and quantum computing applications
+                Pursuing research in advanced neural architectures, natural language understanding, and quantum machine learning to advance reasoning, generalization, and interpretability in intelligent systems.
               </p>
             </CardContent>
           </Card>
@@ -34,7 +34,7 @@ export default function Vision() {
               </div>
               <h3 className="text-lg font-semibold text-foreground mb-2">Mission-Driven</h3>
               <p className="text-sm text-foreground/80 font-body">
-                Change the AI/ML industry by building technology that improves people's lives
+                Committed to bridging theoretical advancements and applied innovation in AI to design learning systems that are not only performant but also transparent, reliable, and human-aligned AI that advances scientific and societal goals.
               </p>
             </CardContent>
           </Card>
@@ -46,7 +46,7 @@ export default function Vision() {
               </div>
               <h3 className="text-lg font-semibold text-foreground mb-2">Open to Impact</h3>
               <p className="text-sm text-foreground/80 font-body">
-                Startup roles, big tech, or founding ventures - focused on impact over path
+                Collaborating across academia, research, and industry to translate machine learning and computational intelligence research into practical solutions that contribute to knowledge, discovery, and societal progress.
               </p>
             </CardContent>
           </Card>
@@ -55,11 +55,7 @@ export default function Vision() {
         <Card className="bg-primary/5 border-primary/20" data-testid="card-vision-statement">
           <CardContent className="pt-6">
             <p className="text-lg text-center text-foreground leading-relaxed font-body">
-              I believe that the future of AI lies not just in making systems smarter, but in making them more reliable, 
-              interpretable, and aligned with human values. Through my work in transformer architectures, quantum ML, 
-              and reinforcement learning, I aim to contribute to building AI systems that are both powerful and trustworthy. 
-              My goal is to bridge the gap between cutting-edge research and real-world applications that make a tangible 
-              difference in people's lives.
+              I believe that the next frontier of Artificial Intelligence lies at the intersection of rigorous research and responsible innovation. Through my work in natural language processing, computer vision, reinforcement learning, and quantum machine learning, I aim to develop models that are both theoretically grounded and empirically robust. My broader vision is to advance AI as a scientific discipline — one that expands human understanding, augments discovery, and operates with transparency and trust.
             </p>
           </CardContent>
         </Card>

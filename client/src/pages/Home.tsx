@@ -13,9 +13,9 @@ export default function Home() {
       <Navigation />
       <Hero />
       <About />
-      <Leadership />
-      <Projects />
       <TechnicalFoundation />
+      <Projects />
+      <Leadership />
       <Vision />
       <Contact />
     </div>

@@ -26,9 +26,9 @@ export default function Navigation() {
 
   const navLinks = [
     { label: "About", id: "about" },
-    { label: "Leadership", id: "leadership" },
-    { label: "Projects", id: "projects" },
     { label: "Technical", id: "technical" },
+    { label: "Projects", id: "projects" },
+    { label: "Leadership", id: "leadership" },
     { label: "Vision", id: "vision" },
     { label: "Contact", id: "contact" }
   ];
@@ -47,7 +47,7 @@ export default function Navigation() {
             className="text-lg font-bold text-foreground"
             data-testid="button-nav-logo"
           >
-            Portfolio
+            Sampath's Portfolio
           </button>
 
           <div className="hidden md:flex items-center gap-1">
