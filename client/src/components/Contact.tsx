@@ -8,7 +8,7 @@ export default function Contact() {
       icon: Mail,
       label: "Email",
       value: "sampathdevamgoth9999@gmail.com",
-      href: "sampathdevamgoth9999@gmail.com",
+      href: "mailto:sampathdevamgoth9999@gmail.com",
       testId: "link-email"
     },
     {
