@@ -1,0 +1,133 @@
+Persona Context:
+You are building this portfolio from the perspective of an experienced AI/ML and Quantum ML professional who has founded multiple startups, navigated failures and successes, and conducted hundreds of technical interviews. You know exactly what separates signal from noise when evaluating early-career talent.
+
+PORTFOLIO REQUIREMENTS
+Primary Objective: Create a professional, formal portfolio website for a 3rd-year B.Tech Computer Science student at Jawaharlal Nehru University. This portfolio must demonstrate technical depth, leadership capability, and intellectual curiosity in ways that resonate with startup founders and technical interviewers in the AI/ML/Quantum Computing space.
+
+CONTENT STRUCTURE (Priority Order)
+1. Hero Section
+
+Name and tagline: "3rd Year CS Engineering Student | AI/ML Researcher | Space Club President"
+One-sentence value proposition focusing on: "Exploring transformer architectures and quantum machine learning to make AI more reliable and impactful"
+Subtle, professional call-to-action buttons: "View Projects" | "Download Resume" | "Contact"
+
+2. About Section
+
+Lead with intellectual curiosity and vision: "Passionate about understanding how machines think and modifying architectures to create real-world impact"
+Highlight: Current focus on transformer/LLM architectures, quantum computing, and reinforcement learning
+Mention: Creating things from scratch, bringing change to the AI/ML industry through consistent hard work
+Include: Love for astronomy and intersection with ML in space domain
+Keep it authentic - mention this is a learning journey, not a claim of expertise
+
+3. Leadership & Impact Section (This comes early - founders care about initiative)
+
+Space Club President - Co-founded and currently leading
+
+Organized ML Hackathon (Space Domain): 16 teams, 6 problem statements (satellite collision, exoplanet atmospheres, cloud segmentation, etc.)
+Celebrated National Space Day at university level
+Built active social media presence and organized 2 major events
+Timeline: Founded last year, serving as president for 5 months
+
+
+
+4. Projects Section
+Organize by domain with brief, impact-focused descriptions:
+
+Natural Language Processing
+
+Emotion Prediction
+Named Entity Recognition in Finance Texts
+
+
+Computer Vision
+
+Pediatric Pneumonia Detection
+
+
+Space & ML (Ongoing)
+
+Multiple projects at intersection of astronomy and machine learning
+
+
+Current Research Interests
+
+Reinforcement Learning
+Quantum Machine Learning applications
+
+
+
+(Each project should have: Title, 1-2 line description, technologies used, optional GitHub link placeholder)
+5. Technical Foundation
+Present as "Building Blocks" not "Expert Skills":
+
+Coursework Completed: Data Structures, Algorithms, Computer Architecture, DBMS, Networks, Operating Systems, ML, Theory of Computation, AI Agents, Web Technology
+Favorite Subjects: Theory of Computation, Operating Systems
+Programming: Python, C, C++
+Tools & Platforms: Power BI, Cloud Computing basics
+AI/ML Concepts: Transformer architectures, LLMs, AI agents, graph-based learning
+
+6. Interests & Vision
+
+Deep technical curiosity: Transformer architectures, LLM reliability, quantum computing
+Mission: Change AI/ML industry by making technology that improves people's lives
+Open to: Startup roles, big tech, or founding own venture - focused on impact over path
+
+7. Contact Section
+
+Email, LinkedIn, GitHub placeholders
+Optional: Location (JNU, Delhi)
+
+
+DESIGN SPECIFICATIONS
+Color Palette:
+
+Primary: Deep navy blue (#1e3a5f) or charcoal (#2c3e50)
+Accent: Subtle teal (#16a085) or muted gold (#d4af37)
+Background: Clean white (#ffffff) or very light gray (#f8f9fa)
+Text: Dark gray (#333333) for body, near-black (#1a1a1a) for headings
+
+Typography:
+
+Headings: Inter, Helvetica Neue, or similar clean sans-serif
+Body: Source Sans Pro, Roboto, or similar readable font
+Size hierarchy: Clear but not dramatic
+Line spacing: Generous for readability
+
+Layout Principles:
+
+Clean, spacious, professional
+Single-page scroll or minimal navigation
+Responsive design (mobile-friendly)
+Subtle animations if any (fade-ins on scroll)
+No flashy colors, no unprofessional elements
+Content > decoration
+
+What Founders Look For:
+
+Initiative and ownership (Space Club leadership)
+Technical depth with humility (learning journey, not false expertise)
+Problem-solving orientation (hackathon organization, diverse projects)
+Clear communication (concise, honest descriptions)
+Intellectual curiosity (ongoing exploration in quantum ML, RL)
+Impact focus (making people's lives better)
+
+
+TECHNICAL IMPLEMENTATION
+
+Build using: HTML, CSS, JavaScript (vanilla or React if appropriate)
+Ensure: Fast loading, clean code, accessible design
+Include: Smooth scrolling, responsive breakpoints
+Optional: Dark mode toggle (professional dark theme)
+Deploy-ready: Should be ready to host immediately
+
+
+TONE & MESSAGING
+
+Honest and authentic - this is a student building expertise, not claiming mastery
+Forward-looking - emphasize curiosity and growth trajectory
+Impact-oriented - focus on real-world applications and helping people
+Respectful and professional - suitable for any interview context
+Confident but humble - demonstrate capability without arrogance
+
+
+Build this portfolio as you would want to see it if you were hiring for your own AI/ML startup. Make it signal competence, curiosity, and potential - not perfection.
