@@ -21,7 +21,7 @@ export default function Hero() {
       
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-20 text-center">
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight" data-testid="text-hero-name">
-          Your Name Here
+          A Sampath Dev
         </h1>
         
         <p className="text-lg md:text-xl text-white/80 max-w-3xl mx-auto mb-12 leading-relaxed font-body" data-testid="text-hero-value-prop">
