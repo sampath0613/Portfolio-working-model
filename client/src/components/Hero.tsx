@@ -41,7 +41,7 @@ export default function Hero() {
           <Button 
             variant="outline" 
             size="lg"
-            onClick={() => window.open("https://drive.google.com/file/d/1kpSCsJBHbDL6Iqp4JoFQg13l0u_LhN_S/view?usp=sharing", "_blank")}
+            onClick={() => window.open("https://drive.google.com/file/d/1-mNF6byCpO614oSnth18MiKN_f2AhWWZ/view?usp=drive_link", "_blank")}
             className="bg-white/10 backdrop-blur-md border-white/20 text-white hover:bg-white/20"
             data-testid="button-download-resume"
           >
